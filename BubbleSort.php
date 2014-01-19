@@ -35,7 +35,7 @@ class BubbleSort implements arraySort{
         return false;
     }
     /**
-     * Sort array with Booble Sort algorithm
+     * Sort array with Bubble Sort algorithm
      */
     public function sort() {
         $j = 0;
@@ -57,8 +57,8 @@ class BubbleSort implements arraySort{
 
 }
 $unsortedArray = [5, 1, 12, -5, 16];
-$boobleSorter = new BubbleSort();
-$boobleSorter->setUnsortedArray($unsortedArray);
-$boobleSorter->sort();
-print_r($boobleSorter->getSortedArray()); 
+$bubbleSorter = new BubbleSort();
+$bubbleSorter->setUnsortedArray($unsortedArray);
+$bubbleSorter->sort();
+print_r($bubbleSorter->getSortedArray()); 
  
